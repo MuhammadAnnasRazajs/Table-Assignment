@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(218, 19, 19);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Make it responsive */
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5rem; /* Adjusted for responsiveness */
+}
+
+ input {
+   width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    text-align: center;
+ } 
+div{
+    background-color: #85b90b;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #b4101e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem; /* Responsive font size */
+}
+
+button:hover {
+    background-color: hsl(251, 83%, 37%);
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1rem; /* Responsive font size */
+}
+
+/* Media Queries for additional responsiveness */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.2rem; /* Smaller title on small screens */
+    }
+
+    input,
+    button {
+        padding: 8px; /* Smaller padding on small screens */
+        font-size: 0.9rem; /* Smaller font size on small screens */
+    }
+}
